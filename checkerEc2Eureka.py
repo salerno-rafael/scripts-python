@@ -58,7 +58,7 @@ def mergedNodes(nodes):
 
 def instancesEureka ():
      nodes = eurekaNodes()
-     nodes.remove('ip-172-30-143-123')
+     nodes.remove('ip-1-0-0-123')
      return nodes
 
 def mergeInstanceEureka():
